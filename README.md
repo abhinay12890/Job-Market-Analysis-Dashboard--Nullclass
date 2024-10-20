@@ -8,6 +8,7 @@ This project showcases an interactive Tableau dashboard for analyzing job market
 
 ## Live Demo
 You can view the live version of the dashboard deployed on Netlify here: [Live Dashboard](https://jobdashboardabhi.netlify.app)
+As per the tasks assigned, the Dashbaord 2 & 3 are only available between 3 PM to 6 PM (IST).
 
 ## Files
 - **Dashboard.html**: The interactive Tableau dashboard embedded in an HTML file.
