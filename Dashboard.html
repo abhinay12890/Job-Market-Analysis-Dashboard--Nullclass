@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Analytics Dashboard</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-image: url('https://images.unsplash.com/photo-1710166755608-58b3d62db3a8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent repeating */
+            color: #fbfbfb; /* Change text color for visibility */
+        }
+
+        h1 {
+            font-size: 3em; /* Adjusted font size for better visibility */
+            text-align: center; /* Center the title */
+            margin: 0; /* Remove default margin */
+            color: white; /* White color for contrast */
+        }
+
+        /* Dashboard Container Styling */
+        .dashboard {
+            margin-bottom: 40px; /* Add more margin for space between dashboards */
+            padding: 20px; /* Padding around each dashboard for better spacing */
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background to make dashboards pop */
+            border-radius: 10px; /* Rounded corners for a softer look */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            overflow: hidden;
+        }
+
+        /* Responsive Height Control for Dashboards */
+        object.tableauViz {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            margin-top: 20px; /* Add margin above the footer */
+            color: #fbfbfb; /* Text color for the footer */
+            font-size: 0.9em; /* Slightly smaller font size for the footer */
+            background-color: rgba(0,0,0,0.5);
+            padding: 10px 0;
+            border-top: 2px solid #fff;
+        }
+
+        .message {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: black;
+            text-align: center;
+            font-size: 2em;
+            width: 80%;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Job Insight Dashboards !!</h1>
+
+    <!-- Dashboard 1 -->
+    <div class="dashboard tableauPlaceholder" id="viz1728193402702">
+        <noscript>
+            <a href="#"><img alt="Correlation " src="https://public.tableau.com/static/images/Da/Dashboard1_17281860633010/Correlation/1_rss.png" style="border: none;" /></a>
+        </noscript>
+        <object class="tableauViz">
+            <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="Dashboard1_17281860633010/Correlation" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param name="static_image" value="https://public.tableau.com/static/images/Da/Dashboard1_17281860633010/Correlation/1.png" />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en-US" />
+        </object>
+    </div>
+
+    <script type="text/javascript">
+        var divElement = document.getElementById('viz1728193402702');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+        } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+        } else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '727px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <!-- Dashboard 2 -->
+    <div class="dashboard tableauPlaceholder" id="viz1728196186549" style="display: none;">
+        <noscript>
+            <a href="#"><img alt="Preferance " src="https://public.tableau.com/static/images/Da/Dashboard2_17281863930520/Preferance/1_rss.png" style="border: none;" /></a>
+        </noscript>
+        <object class="tableauViz">
+            <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="Dashboard2_17281863930520/Preferance" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param name="static_image" value="https://public.tableau.com/static/images/Da/Dashboard2_17281863930520/Preferance/1.png" />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en-US" />
+        </object>
+    </div>
+
+    <script type="text/javascript">
+        var divElement2 = document.getElementById('viz1728196186549');
+        var vizElement2 = divElement2.getElementsByTagName('object')[0];
+        if (divElement2.offsetWidth > 800) {
+            vizElement2.style.width = '100%';
+            vizElement2.style.height = (divElement2.offsetWidth * 0.75) + 'px';
+        } else if (divElement2.offsetWidth > 500) {
+            vizElement2.style.width = '100%';
+            vizElement2.style.height = (divElement2.offsetWidth * 0.75) + 'px';
+        } else {
+            vizElement2.style.width = '100%';
+            vizElement2.style.height = '727px';
+        }
+        var scriptElement2 = document.createElement('script');
+        scriptElement2.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement2.parentNode.insertBefore(scriptElement2, vizElement2);
+    </script>
+
+    <!-- Dashboard 3 -->
+    <div class="dashboard tableauPlaceholder" id="viz1728193361644" style="display: none;">
+        <noscript>
+            <a href="#"><img alt="Company " src="https://public.tableau.com/static/images/Da/Dashboard3_17281865154520/Company/1_rss.png" style="border: none;" /></a>
+        </noscript>
+        <object class="tableauViz">
+            <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="Dashboard3_17281865154520/Company" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param name="static_image" value="https://public.tableau.com/static/images/Da/Dashboard3_17281865154520/Company/1.png" />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en-US" />
+        </object>
+    </div>
+
+    <script type="text/javascript">
+        var divElement3 = document.getElementById('viz1728193361644');
+        var vizElement3 = divElement3.getElementsByTagName('object')[0];
+        if (divElement3.offsetWidth > 800) {
+            vizElement3.style.width = '100%';
+            vizElement3.style.height = (divElement3.offsetWidth * 0.75) + 'px';
+        } else if (divElement3.offsetWidth > 500) {
+            vizElement3.style.width = '100%';
+            vizElement3.style.height = (divElement3.offsetWidth * 0.75) + 'px';
+        } else {
+            vizElement3.style.width = '100%';
+            vizElement3.style.height = '727px';
+        }
+        var scriptElement3 = document.createElement('script');
+        scriptElement3.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement3.parentNode.insertBefore(scriptElement3, vizElement3);
+    </script>
+
+    <div class="message" id="hidden-message">
+        <p> Dashboards 2 & 3 are available between 3PM to 6PM</p>
+    </div>
+
+    <script>
+        function showDashboards() {
+            const currentTime = new Date();
+            const hours = currentTime.getHours();
+            const messagediv = document.getElementById('hidden-message');
+
+            // Show Dashboards 2 and 3 between 3 PM and 6 PM
+            if (hours >= 15 && hours < 18) {
+                document.getElementById('viz1728196186549').style.display = 'block'; // Dashboard 2
+                document.getElementById('viz1728193361644').style.display = 'block'; // Dashboard 3
+                messagediv.style.display='none';
+            } else {
+                document.getElementById('viz1728196186549').style.display = 'none'; // Dashboard 2
+                document.getElementById('viz1728193361644').style.display = 'none'; // Dashboard 3
+                messagediv.style.display='block';
+            }
+        }
+
+        // Initial call to check and display dashboards based on time
+        showDashboards();
+        // Refresh the display every second
+        setInterval(showDashboards, 1000);
+    </script>
+
+    <footer>
+        <p>The data used to build the dashboards on this website is sourced from <a href="https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset">Kaggle</a></p> 
+        <p>Created by Kalavakuri Abhinay</p>
+    </footer>
+
+</body>
+</html>
