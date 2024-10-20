@@ -12,10 +12,10 @@ You can view the live version of the dashboard deployed on Netlify here: [Live D
 
 
 ## Files
-- **Dashboard.html**: The interactive Tableau dashboard embedded in an HTML file.
-- **Job_Dashboard_Abhinay.twbx**: The Tableau workbook file containing the dashboards.
-- **Job_Portal_Data_Cleaning.ipynb**: The Jupyter notebook file containing Data Cleaning process used.
-- **[Dataset](https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset)**: The Job dataset used for the analysis.
+- `Dashboard.html`: The interactive Tableau dashboard embedded in an HTML file.
+- `Job_Dashboard_Abhinay.twbx`: The Tableau workbook file containing the dashboards.
+- `Job_Portal_Data_Cleaning.ipynb`: The Jupyter notebook file containing Data Cleaning process used.
+- `[Dataset](https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset)`: The Job dataset used for the analysis.
 
 ## How to View the Dashboard Locally
 To view the dashboard:
