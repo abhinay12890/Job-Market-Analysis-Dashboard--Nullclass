@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3bb72e54-c349-4981-8c9f-cb76df138f6e/deploy-status)](https://app.netlify.com/sites/jobdashboardabhi/deploys)
-
 # Job Market Analysis Dashboard
 
 This project showcases an interactive Tableau dashboard for analyzing job market trends based on a Job dataset. The dashboard covers three key analyses:
